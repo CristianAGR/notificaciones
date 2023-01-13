@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "856957891617",
+    "firebase_url": "https://flutter-varios-fee56-default-rtdb.firebaseio.com",
+    "project_id": "flutter-varios-fee56",
+    "storage_bucket": "flutter-varios-fee56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856957891617:android:9f1cf109885f8cbc9cdf60",
+        "android_client_info": {
+          "package_name": "com.cristiangonzalez.notificaciones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856957891617-s7dq0k8gbati2j17mcp03b6g62r2esjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cristiangonzalez.notificaciones",
+            "certificate_hash": "07627645c42d2090da04bee4df0cffb1937ef8df"
+          }
+        },
+        {
+          "client_id": "856957891617-9b1q4qglbog1p9v2sk8ivj3sp67gb3fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-dN_DQNg-C9sfWA8_8tdUnW4Xl5ZVe0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856957891617-9b1q4qglbog1p9v2sk8ivj3sp67gb3fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
