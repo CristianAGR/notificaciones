@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cristiangonzalez.notificaciones">
+    package="com.example.notificaciones">
    <application
         android:label="notificaciones"
         android:name="${applicationName}"
