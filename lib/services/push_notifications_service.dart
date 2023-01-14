@@ -1,4 +1,4 @@
-
+// 07:62:76:45:C4:2D:20:90:DA:04:BE:E4:DF:0C:FF:B1:93:7E:F8:DF
 
 import 'dart:async';
 
@@ -18,19 +18,19 @@ class PushNotificationService {
   static Future<void> _backgroundHandler( RemoteMessage message ) async {
     //print( 'onBackground Handler ${ message.messageId }');
     print( message.data );
-    _messageStream.add( message.notification?.title ?? 'No title');
+    _messageStream.add( message.data['product'] ?? 'No data');
   }
 
   static Future<void> _onMessageHandler( RemoteMessage message ) async {
     //print( 'onMessage Handler ${ message.messageId }');
     print( message.data );
-    _messageStream.add( message.notification?.title ?? 'No title');
+    _messageStream.add( message.data['product'] ?? 'No data');
   }
 
   static Future<void> _onMessageOpenApp( RemoteMessage message ) async {
     //print( 'onMessageOpenApp Handler ${ message.messageId }');
     print( message.data );
-    _messageStream.add( message.notification?.title ?? 'No title');
+    _messageStream.add( message.data['product'] ?? 'No data');
   }
 
 
